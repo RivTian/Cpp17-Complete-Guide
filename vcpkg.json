@@ -1,0 +1,10 @@
+{
+  "name" : "cpp17-guide",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "22fd3b5c3bef2d9f8076778f02584d96b1a3293c",
+  "dependencies" : [ {
+    "name" : "fmt",
+    "version>=" : "10.1.1",
+    "$comment" : "    find_package(fmt CONFIG REQUIRED)\n\n    target_link_libraries(main PRIVATE fmt::fmt)\n"
+  } ]
+}
